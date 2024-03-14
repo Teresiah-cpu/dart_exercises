@@ -7,14 +7,14 @@ class BankAccount{
     print("$customer_name");
     print("$acc_number");
     print("$balance");
+
   }
-  //run aplication
-  void main(){
-    //object to access class properties
-    var Account =BankAccount();
-    Account.customer_name = "TeshGithua";
-    Account.acc_number = 123456780;
-    Account.balance = 42500.60;
-    Account.display();
-  }
+} 
+void main(){
+  //object to access class properties
+  var Account = BankAccount();
+  Account.customer_name = "Teresiah Githua";
+  Account.acc_number = 012345678;
+  Account.balance = 34500.80;
+  Account.display();
 }
