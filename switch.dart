@@ -1,5 +1,5 @@
 void main(){
-  int i = 8;
+  int i = 3;
   switch (i) {
     case 1:
       print("The value is 1");
